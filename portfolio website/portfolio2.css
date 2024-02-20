@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #021a37;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: fit-content;
+    
+}
+.profile{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    position: absolute;
+    left: 250px;
+    top: -250px;
+}
+nav {
+    background: #090633;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.right ul {
+    display: flex;
+
+}
+
+.right>ul>li {
+    margin: 0px 23px;
+    list-style: none;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+}
+.table-data1{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: #08282a;
+    font-weight: bold;
+}
+.right>ul>li :hover {
+    color: rgb(120, 120, 174);
+    font-size: 1.1rem;
+}
+
+.firstsection {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#element {
+    color: pink;
+}
+
+.leftsection>span {
+    color: rgb(15, 150, 195);
+}
+
+.leftsection {
+    color: white;
+    font-size: 2rem;
+}
+
+.rightsection>img {
+    width: 800px;
+}
+
+.secondsection {
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#skill {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box1,
+#box2,
+#box3 {
+    border: 0px solid rgb(0, 0, 0);
+    padding: 30px;
+}
+
+#skill img {
+    width: 250px;
+    height: 250px;
+}
+
+.thirdsection {
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#about {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;  
+}
+#school-name{
+    color: blue;
+    font-size: x-large;
+}
+
+#about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.fourthsection {
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.project {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+.pimg {
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.project a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid green;
+    padding: 10px;
+    background: #000;
+}
+
+.project a:hover {
+    font-size: 1.1rem;
+    border: 2px solid lightskyblue;
+}
+
+.box {
+    width: 400px;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+}
+
+#message{
+    outline: none;
+}
+
+#btn {
+    background: #04393d;
+    color: white;
+    /* border:1px solid lightgreen; */
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 50px;
+}
+.foot{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.foot>h3{
+    text-decoration: underline;
+
+}
+.foot>p>a{
+    text-decoration: none;
+    color: white;
+}
